@@ -1,0 +1,67 @@
+img {
+  height:4em;
+  width:4em;
+}
+
+.Yellow {
+  color:yellow;
+}
+
+.Header {
+  position: relative;
+  text-align: center;
+  top:50px;
+  color:white;
+  font-size:60px;
+  font-style: bold;
+}
+
+.Sub {
+  position:relative;
+  text-align: center;
+  top:80px;
+  color:coral;
+  font-size:20px;
+
+}
+
+.Your {
+  position: relative;
+  text-align: center;
+  top:150px;
+  font-size:30px;
+  color:white;
+}
+
+.Character {
+  position: relative;
+  text-align: center;
+  top:150px;
+  font-size:45px;
+  color:white;
+}
+
+.grid-container {
+  position: relative;
+  display:grid;
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
+  top:200px;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid-item {
+  position: relative;
+  font-size:40px;
+  text-align:center;
+  border:2px yellow solid;
+  color:white;
+  padding: 0px;
+  margin: 0px;
+  opacity:100%;
+}
+
+.hide {
+  opacity:10%;
+}
